@@ -75,7 +75,7 @@ describe("App tests", () => {
     });
     cy.get("[data-testid=351910000000]").click();
     cy.location().should((loc) => {
-      expect(loc.href).to.eq("http://localhost:8080/numbers/351910000000");
+      expect(loc.href).to.eq("http://localhost:8080/number/351910000000");
     });
     cy.contains("351910000000");
     cy.contains("mobile");

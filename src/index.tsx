@@ -17,7 +17,7 @@ root.render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/company/:companyId" element={<CompanyPage />} />
-          <Route path="/numbers/:numberId" element={<NumberPage />} />
+          <Route path="/number/:numberId" element={<NumberPage />} />
           </Routes>
       </BrowserRouter>
   </React.StrictMode>

@@ -41,7 +41,7 @@ function CompanyPage() {
           return (
             <tr key={e.id} data-testid="number">
               <td>
-                <Link to={`/numbers/${e.id}`} data-testid={e.id}>
+                <Link to={`/number/${e.id}`} data-testid={e.id}>
                   {e.id}
                 </Link>
               </td>
